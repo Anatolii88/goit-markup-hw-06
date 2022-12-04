@@ -380,7 +380,13 @@ margin: 0 auto;
 
 
 .form-field {
+  position: relative;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
   display: flex;
   flex-direction: column;
 }
@@ -389,16 +395,11 @@ margin: 0 auto;
   margin-bottom: 20px;
 }
 
-.form-svg {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  
-}
+
 
 .person-svg {
   position: absolute;
-  top: 11px;
+  top: 50%;
   left: 12px;
   cursor: pointer;
 }
