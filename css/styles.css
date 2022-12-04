@@ -384,12 +384,9 @@ margin: 0 auto;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+  
 }
 
-.form-label {
-  display: flex;
-  flex-direction: column;
-}
 
 .form-field:nth-child(4){
   margin-bottom: 20px;
