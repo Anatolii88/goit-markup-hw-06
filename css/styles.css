@@ -540,9 +540,7 @@ background-color: var(--blue-color);
     cursor: pointer;
 }
 
-.btn-submit:after {
-  
-}
+
 
 .btn-submit-text {
   margin-right: 10px;
